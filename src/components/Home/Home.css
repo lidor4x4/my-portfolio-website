@@ -1,0 +1,117 @@
+ /* Front End Card */
+ .about-me-my-skills-front-end-card-icon-circle-overlay {
+     width: 4rem;
+     height: 4rem;
+     margin-top: 2rem;
+
+ }
+
+ .about-me-my-skills-front-end-card-icon {
+     position: relative;
+     top: -3rem;
+ }
+
+ .front-end-card-title {
+     font-weight: 700;
+     margin-bottom: 2rem;
+ }
+
+ .front-end-card-desc {
+     font-weight: 600;
+     font-size: 1.3rem;
+     margin: 0;
+
+     @media screen (min-width: 768px) {
+         font-size: 1rem;
+     }
+ }
+
+ .prog-leng-title-front-end-card {
+     font-weight: 700;
+     font-size: 1.5rem;
+     margin-top: 2rem;
+     color: #2b89f4;
+ }
+
+ .prog-leng-desc-front-end-card {
+     font-weight: 500;
+     font-size: 1.3rem;
+ }
+
+ .dev-tools-title-front-end-card {
+     font-weight: 700;
+     font-size: 1.5rem;
+     margin-top: 2rem;
+     color: #19b67a;
+
+ }
+
+ .dev-tools-desc-front-end-card {
+     font-weight: 500;
+     font-size: 1.3rem;
+     list-style: circle;
+ }
+
+
+ /* Back End Card */
+
+ .about-me-my-skills-back-end-card-icon-circle-overlay {
+     width: 4rem;
+     height: 4rem;
+     margin-top: 2rem;
+
+ }
+
+ .about-me-my-skills-back-end-card-icon {
+     position: relative;
+     top: -3rem;
+ }
+
+ .back-end-card-title {
+     font-weight: 700;
+     margin-bottom: 2rem;
+ }
+
+
+ .back-end-card-desc {
+     font-weight: 600;
+     font-size: 1.3rem;
+     margin: 0;
+
+     @media screen (min-width: 768px) {
+         font-size: 1rem;
+     }
+ }
+
+
+ .back-end-card-desc {
+     font-weight: 600;
+     font-size: 1.3rem;
+ }
+
+ .prog-leng-title-back-end-card {
+     font-weight: 700;
+     font-size: 1.5rem;
+     margin-top: 2rem;
+     color: #2b89f4;
+ }
+
+ .prog-leng-desc-back-end-card {
+     font-weight: 500;
+     font-size: 1.3rem;
+ }
+
+
+ .dev-tools-title-back-end-card {
+     font-weight: 700;
+     font-size: 1.5rem;
+     margin-top: 2rem;
+     color: #19b67a;
+
+ }
+
+ .dev-tools-desc-back-end-card {
+     font-weight: 500;
+     font-size: 1.3rem;
+     list-style: circle;
+ }

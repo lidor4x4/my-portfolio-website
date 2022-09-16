@@ -123,10 +123,10 @@ export default function Home() {
         <FooterTitle>Living, learning, & leveling up</FooterTitle>
         <FooterTitle>one day at a time.</FooterTitle>
         <FooterIconsContiner>
-          <FooterIcon>
-            <FaGithub className="FaGithub" color="#fff" size="25px" />
+          <FooterIcon onClick={() => window.open("https://www.github.com/lidor4x4", "_blank")}>
+            <FaGithub  className="FaGithub" color="#fff" size="25px" />
           </FooterIcon>
-          <FooterIcon>
+          <FooterIcon onClick={() => window.open("contact-me", "_blank")}>
             <FaEnvelope className="FaEnvelope" color="#fff" size="25px" />
           </FooterIcon>
         </FooterIconsContiner>

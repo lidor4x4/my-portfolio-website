@@ -69,7 +69,7 @@ export default function ContactMe() {
           <ContactMeFormInput
             type="email"
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Ben Dover@gmail.com"
+            placeholder="BenDover@gmail.com"
           />
         </ContactMeFormInputContiner>
         <ContactMeFormTextArea

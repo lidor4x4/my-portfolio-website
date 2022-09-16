@@ -12,7 +12,7 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: -apple-system ,"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   @media (max-width: 960px) {
     transition: 0.8s all ease;
   }

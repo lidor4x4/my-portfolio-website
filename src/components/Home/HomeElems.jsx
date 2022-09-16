@@ -8,7 +8,7 @@ export const HeroContiner = styled.div`
 `;
 
 export const HeroTitle = styled.h1`
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family:  -apple-system,"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 46px;
   font-weight: bold;
   color: #141c3a;
@@ -18,7 +18,7 @@ export const HeroTitle = styled.h1`
   }
 `;
 export const HeroSubtitle = styled.p`
-  font-family: "Assistant", sans-serif;
+  font-family: -apple-system ,"Assistant", sans-serif;
   font-size: 26px;
   color: #141c3a;
   margin-bottom: 8rem;
@@ -47,7 +47,7 @@ export const AboutMeContiner = styled.div`
 
 export const AboutMeTitle = styled.h1`
   color: #fff;
-  font-family: "Assistant", sans-serif;
+  font-family: -apple-system ,"Assistant", sans-serif;
   font-weight: 700;
   font-size: 32px;
   @media (max-width: 768px) {
@@ -57,7 +57,7 @@ export const AboutMeTitle = styled.h1`
 
 export const AboutMeDescription = styled.p`
   color: #fff;
-  font-family: "Assistant", sans-serif;
+  font-family: -apple-system ,"Assistant", sans-serif;
   font-weight: normal;
   font-size: 20px;
   margin: 0;
@@ -86,7 +86,7 @@ export const FrontendDeveloperCard = styled.div`
   border: 1px solid #e6edf9;
   position: relative;
   top: -50px;
-  font-family: "Assistant", sans-serif;
+  font-family: -apple-system ,"Assistant", sans-serif;
   @media (max-width: 768px) {
     top: 0;
     width: 22rem;
@@ -105,7 +105,7 @@ export const BackendDeveloperCard = styled.div`
   border-radius: 0.5rem;
   position: relative;
   top: -50px;
-  font-family: "Assistant", sans-serif;
+  font-family: -apple-system ,"Assistant", sans-serif;
   @media (max-width: 768px) {
     top: 0;
     width: 22rem;
@@ -124,7 +124,7 @@ export const MyProjectsContiner = styled.div`
 
 export const MyProjectsTitle = styled.h1`
   color: #fff;
-  font-family: "Assistant", sans-serif;
+  font-family: -apple-system ,"Assistant", sans-serif;
   font-weight: bold;
   font-size: 32px;
   @media (max-width: 768px) {
@@ -134,7 +134,7 @@ export const MyProjectsTitle = styled.h1`
 
 export const MyProjectsDescription = styled.p`
   color: #fff;
-  font-family: "Assistant", sans-serif;
+  font-family: -apple-system ,"Assistant", sans-serif;
   font-weight: normal;
   font-size: 20px;
   margin: 0;
@@ -151,7 +151,7 @@ export const MyProjectsCardsContiner = styled.div`
 export const RoutyProjectCard = styled.div`
   width: 400px;
   height: 330px;
-  font-family: "Assistant", sans-serif;
+  font-family: -apple-system ,"Assistant", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,7 +179,7 @@ export const MyProjectsCardRoutyLink = styled.p`
 `;
 
 export const FooterContiner = styled.div`
-  font-family: "Assistant", sans-serif;
+  font-family: -apple-system ,"Assistant", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -211,10 +211,10 @@ export const FooterIcon = styled.div`
   border-radius: 50%;
   padding: 8.44px 12px;
   margin: 40px 16px;
-
+  cursor: pointer;
   &:hover {
-    transition: all 0.2s ease-in-out;
-    background-color: #6e06f2;
+    transition: all 200ms ease-in-out;
+    scale: 1.1;
   }
 `;
 

@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
   width: 100%;
   height: 100%;
   background: #0f0f0f;
-  font-family: "Assistant", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: -apple-system ,"Assistant", Tahoma, Geneva, Verdana, sans-serif;
   display: grid;
   align-items: center;
   top: 0;

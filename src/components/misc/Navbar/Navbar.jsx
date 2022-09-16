@@ -11,21 +11,27 @@ import {
   NavBtnLink,
 } from "./NavbarElems";
 
-import {
-  animateScroll as scroll,
-} from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 export default function Navbar({ toggle }) {
+  const WebsiteURL = "https://www.lidorh.com/";
   const ScrollToTop = () => {
+    if (window.location.href !== WebsiteURL) {
+      window.location.href = WebsiteURL;
+    }
     scroll.scrollToTop();
   };
 
   const ScrollToAbout = () => {
-    scroll.scrollTo(800);
+    if (window.location.href === WebsiteURL) {
+      scroll.scrollTo(800);
+    }
   };
 
   const ScrollToMyProjects = () => {
-    scroll.scrollTo(2000);
+    if (window.location.href === WebsiteURL) {
+      scroll.scrollTo(2000);
+    }
   };
 
   return (
@@ -61,7 +67,13 @@ export default function Navbar({ toggle }) {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="contact">Sey Hello</NavBtnLink>
+            <NavBtnLink
+              to="contact"
+              href="contact-me"
+              style={{ border: "1px solid #01BF71" }}
+            >
+              Sey Hello
+            </NavBtnLink>
           </NavBtn>
         </NavbarContiner>
       </Nav>

@@ -8,6 +8,7 @@ export const SidebarContainer = styled.aside`
   width: 100%;
   height: 100%;
   background: #0f0f0f;
+  font-family: "Assistant", Tahoma, Geneva, Verdana, sans-serif;
   display: grid;
   align-items: center;
   top: 0;
@@ -72,10 +73,10 @@ export const SideBtnWarp = styled.div`
 
 export const SideBtnRoute = styled.a`
   border-radius: 50px;
-  background: #01bf71;
+
   white-space: nowrap;
   padding: 16px 64px;
-  color: #010606;
+  color: #fff;
   font-size: 16px;
   outline: none;
   border: none;
@@ -83,9 +84,8 @@ export const SideBtnRoute = styled.a`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 
-  %:hover {
+  &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+    background-color: #01bf71;
   }
 `;

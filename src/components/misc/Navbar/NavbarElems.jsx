@@ -13,7 +13,6 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 10;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
   @media (max-width: 960px) {
     transition: 0.8s all ease;
   }
@@ -99,7 +98,6 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled.a`
   border-radius: 50px;
-  background: #01bf71;
   white-space: nowrap;
   padding: 10px 22px;
   color: #fff;
@@ -112,6 +110,6 @@ export const NavBtnLink = styled.a`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    filter: brightness(1.2);
+    background-color: #01bf71;
   }
 `;

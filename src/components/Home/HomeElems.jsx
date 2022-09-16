@@ -82,7 +82,7 @@ export const FrontendDeveloperCard = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   border: 1px solid #e6edf9;
   position: relative;
   top: -50px;
@@ -100,7 +100,7 @@ export const BackendDeveloperCard = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   border: 1px solid #e6edf9;
   border-radius: 0.5rem;
   position: relative;
@@ -117,7 +117,7 @@ export const MyProjectsContiner = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #141c3a;
+  background: #1c40c4;
   height: 50vh;
   width: 100%;
 `;
@@ -160,7 +160,8 @@ export const RoutyProjectCard = styled.div`
   background-color: #fff;
   border: 1px solid #e6edf9;
   position: relative;
-  top: -40px;
+  top: -30px;
+  box-shadow: -22px 20px 56px 9px rgba(0, 0, 0, 0.1);
 `;
 
 export const MyProjectsCardRoutyTitle = styled.img`
@@ -175,4 +176,50 @@ export const MyProjectsCardRoutyLink = styled.p`
   background-color: #ecedef;
   padding: 5px 15px;
   font-weight: 600;
+`;
+
+export const FooterContiner = styled.div`
+  font-family: "Assistant", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1b254b;
+  height: 50vh;
+  width: 100%;
+`;
+
+export const FooterTitle = styled.h1`
+  color: #fff;
+  font-weight: 400;
+  font-size: 32px;
+  margin: 0;
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+`;
+
+export const FooterIconsContiner = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+`;
+
+export const FooterIcon = styled.div`
+  border: 2px solid rgb(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 8.44px 12px;
+  margin: 40px 16px;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #6e06f2;
+  }
+`;
+
+export const FooterCopyright = styled.p`
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
 `;

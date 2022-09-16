@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "../misc/Navbar/Navbar";
 import Sidebar from "../misc/Sidebar/Sidebar";
-import { FaCodeBranch } from "react-icons/fa";
+import { FaCodeBranch, FaGithub, FaEnvelope } from "react-icons/fa";
 import "./Home.css";
 import RoutyIcon from "./icons/RoutyLogo.png";
 import {
@@ -23,6 +23,11 @@ import {
   MyProjectsCardRoutyTitle,
   MyProjectsCardRoutyDescription,
   MyProjectsCardRoutyLink,
+  FooterContiner,
+  FooterTitle,
+  FooterIconsContiner,
+  FooterIcon,
+  FooterCopyright,
 } from "./HomeElems";
 import HeroSectionImg from "../assets/hero-devices.svg";
 
@@ -32,7 +37,6 @@ export default function Home() {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
-
 
   return (
     <>
@@ -98,7 +102,7 @@ export default function Home() {
       <MyProjectsContiner>
         <MyProjectsTitle>My Peojects</MyProjectsTitle>
         <MyProjectsDescription>
-          I'm a bit of a digital product junky. Over the years, I've used
+          I’m a bit of a digital product junky. Over the years, I’ve used
           hundreds of web and mobile apps in different industries and verticals.
           Eventually, I decided that it would be a fun challenge to try
           designing and building my own.
@@ -115,6 +119,19 @@ export default function Home() {
           </MyProjectsCardRoutyLink>
         </RoutyProjectCard>
       </MyProjectsCardsContiner>
+      <FooterContiner>
+        <FooterTitle>Living, learning, & leveling up</FooterTitle>
+        <FooterTitle>one day at a time.</FooterTitle>
+        <FooterIconsContiner>
+          <FooterIcon>
+            <FaGithub className="FaGithub" color="#fff" size="25px" />
+          </FooterIcon>
+          <FooterIcon>
+            <FaEnvelope className="FaEnvelope" color="#fff" size="25px" />
+          </FooterIcon>
+        </FooterIconsContiner>
+        <FooterCopyright>Handcrafted by me © LidorH</FooterCopyright>
+      </FooterContiner>
     </>
   );
 }

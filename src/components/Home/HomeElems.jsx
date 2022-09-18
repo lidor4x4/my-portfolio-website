@@ -82,7 +82,7 @@ export const FrontendDeveloperCard = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-  border-radius: 0.2rem;
+  border-radius: 0.1rem;
   border: 1px solid #e6edf9;
   position: relative;
   top: -50px;
@@ -100,9 +100,8 @@ export const BackendDeveloperCard = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-  border-radius: 0.3rem;
+  border-radius: 0.1rem;
   border: 1px solid #e6edf9;
-  border-radius: 0.5rem;
   position: relative;
   top: -50px;
   font-family: -apple-system ,"Assistant", sans-serif;

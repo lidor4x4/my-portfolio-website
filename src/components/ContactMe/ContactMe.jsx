@@ -37,7 +37,7 @@ export default function ContactMe() {
     };
     emailjs
       .send(
-        "service_dip5d0d",
+        "service_00wz65h",
         "template_n909tcw",
         emailPerms,
         "ZfLlsj6U4Ni4sIYfD"
@@ -63,13 +63,13 @@ export default function ContactMe() {
 
         <ContactMeFormInputContiner>
           <ContactMeFormInput
-            placeholder="Ben Dover"
+            placeholder="Your Name"
             onChange={(e) => setName(e.target.value)}
           />
           <ContactMeFormInput
             type="email"
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="BenDover@gmail.com"
+            placeholder="YourEmail@gmail.com"
           />
         </ContactMeFormInputContiner>
         <ContactMeFormTextArea

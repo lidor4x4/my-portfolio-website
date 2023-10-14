@@ -145,6 +145,8 @@ export const MyProjectsCardsContiner = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
 `;
 
 export const RoutyProjectCard = styled.div`
@@ -166,9 +168,15 @@ export const RoutyProjectCard = styled.div`
 export const MyProjectsCardRoutyTitle = styled.img`
   margin-top: 1rem;
 `;
+
+export const MyProjectsCardRoutyTitle2 = styled.h1`
+  margin-top: 1rem;
+`;
+
 export const MyProjectsCardRoutyDescription = styled.p`
   font-weight: 400;
   font-size: 18px;
+  width: 80%;
 `;
 export const MyProjectsCardRoutyLink = styled.p`
   text-decoration: none;

@@ -28,6 +28,7 @@ import {
   FooterIconsContiner,
   FooterIcon,
   FooterCopyright,
+  MyProjectsCardRoutyTitle2,
 } from "./HomeElems";
 import HeroSectionImg from "../assets/hero-devices.svg";
 
@@ -110,7 +111,7 @@ export default function Home() {
       </MyProjectsContiner>
       <MyProjectsCardsContiner>
         <RoutyProjectCard>
-          <MyProjectsCardRoutyTitle src={RoutyIcon} />
+          <MyProjectsCardRoutyTitle src={RoutyIcon}  />
           <MyProjectsCardRoutyDescription>
             Be notified only when it matters
           </MyProjectsCardRoutyDescription>
@@ -118,6 +119,16 @@ export default function Home() {
             <FaCodeBranch /> In Development
           </MyProjectsCardRoutyLink>
         </RoutyProjectCard>
+        <RoutyProjectCard>
+          <MyProjectsCardRoutyTitle2>CodeQuest</MyProjectsCardRoutyTitle2>
+          <MyProjectsCardRoutyDescription>
+            Connect With Other Developers And Find Partners For Your Next Big Project!
+          </MyProjectsCardRoutyDescription>
+          <MyProjectsCardRoutyLink>
+            <FaCodeBranch /> <a href="https://codequest-git-main-lidor4x4.vercel.app/">Live</a>
+          </MyProjectsCardRoutyLink>
+        </RoutyProjectCard>
+
       </MyProjectsCardsContiner>
       <FooterContiner>
         <FooterTitle>Living, learning, & leveling up</FooterTitle>
